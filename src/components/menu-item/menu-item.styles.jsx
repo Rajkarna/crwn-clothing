@@ -10,7 +10,7 @@ export const MenuItemContainer = styled.div`
 	justify-content: center;
 	border: 1px solid black;
 	margin: 0 7.5px 15px;
-
+	overflow: hidden;
 	&:hover {
 		cursor: pointer;
 		& .background-image {
@@ -21,7 +21,6 @@ export const MenuItemContainer = styled.div`
 			opacity: 0.9;
 		}
 	}
-    
 	&:first-child {
     margin-right: 7.5px;
   }
